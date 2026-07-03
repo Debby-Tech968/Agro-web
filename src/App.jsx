@@ -2,7 +2,7 @@ import React from 'react'
 import { Routes, Route } from 'react-router-dom'
 import Sign from './Component/Sign'
 import Signup from './Component/Signup'
-import RegisterBusiness from './Component/Registerbusiness'
+import RegisterBusiness from './Component/RegisterBusiness'
 import BankInformation from './Component/BankInformation'
 
 
