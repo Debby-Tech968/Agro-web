@@ -109,11 +109,13 @@ const BankInformation = () => {
             </p>
 
             <div className="mt-8 flex justify-center">
-              <Btn
-                text="OK"
-                onClick={() => setShowModal(false)}
-                className="w-40 h-12 bg-[#FF7300] text-white rounded-md font-semibold justify-center"
-              />
+              <NavLink to="/dashboard">
+                <Btn
+                  text="OK"
+                  onClick={() => setShowModal(false)}
+                  className="w-40 h-12 bg-[#FF7300] text-white rounded-md font-semibold justify-center"
+                />
+              </NavLink>
             </div>
           </div>
         </div>
